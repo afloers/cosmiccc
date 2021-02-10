@@ -40,4 +40,4 @@ def main(args):
         verbose=True,
     )
     fitsfile[0].data = clean_arr
-    fitsfile.writeto(args.file + "_cosmiccced.fits", output_verify="fix")
+    fitsfile.writeto(args.file[:-5] + "_cosmiccced.fits", output_verify="fix")
