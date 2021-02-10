@@ -1,0 +1,7 @@
+# Required packages for cosmiccc
+
+# Users
+astroscrappy
+astropy
+
+
