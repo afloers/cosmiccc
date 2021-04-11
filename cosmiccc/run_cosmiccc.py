@@ -35,7 +35,7 @@ def main(args):
         sigfrac=args.sigfrac,
         objlim=args.objlim,
         cleantype="medmask",
-        niter=args.niter,
+        niter=int(args.niter),
         sepmed=True,
         verbose=True,
     )
